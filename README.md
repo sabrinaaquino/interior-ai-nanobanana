@@ -70,20 +70,3 @@ This project is ready for deployment on Vercel.
 3. Add the `VENICE_API_KEY` environment variable in Vercel Project Settings.
 4. Deploy.
 
-## File Structure
-
-```
-/
-  app/
-    page.tsx       # Main UI logic
-    layout.tsx     # App shell & metadata
-    api/
-      generate/    # API Route for Venice
-  components/
-    StyleChips.tsx # Style selector
-    ImagePreview.tsx # Image display & upload
-    HistoryBar.tsx # History thumbnails
-  lib/
-    venice.ts      # Types and constants
-  public/          # Static assets
-```
